@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bronson</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  </head>
+
+  <body>
+    <!--Nevbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Nevbar-->
+
+    <!--Slide Bar -->
+    <div class="container-xxl mt-5">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <div
+                class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center"
+              >
+                <span class="badge text-bg-warning"
+                  >Opening Sale Discount 50%</span
+                >
+
+                <h2 class="text-dark display-5 fw-bold mt-4">
+                  SuperMarket For Fresh Grocery
+                </h2>
+                <p class="lead">
+                  Introduced a new model for online grocery shopping and
+                  convenient home delivery.
+                </p>
+                <a href="#!" class="btn btn-dark mt-3" tabindex="-1"
+                  >Shop Now <i class="feather-icon icon-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <div
+                class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center"
+              >
+                <span class="badge text-bg-warning"
+                  >Lorem ipsum dolor sit amet.</span
+                >
+
+                <h2 class="text-dark display-5 fw-bold mt-4">
+                  SuperMarket For Fresh Grocery
+                </h2>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Explicabo voluptatum iusto officiis natus. Id, neque!
+                </p>
+                <a href="#!" class="btn btn-dark mt-3" tabindex="-1"
+                  >Shop Now <i class="feather-icon icon-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <div
+                class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center"
+              >
+                <span class="badge text-bg-warning"
+                  >Lorem ipsum dolor sit amet.</span
+                >
+
+                <h2 class="text-dark display-5 fw-bold mt-4">
+                  SuperMarket For Fresh Grocery
+                </h2>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Explicabo voluptatum iusto officiis natus. Id, neque!
+                </p>
+                <a href="#!" class="btn btn-dark mt-3" tabindex="-1"
+                  >Shop Now <i class="feather-icon icon-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--Slide Bar -->
+
+
+    <!--Button Cat-->
+    <div
+      class="hstack gap-3 flex-wrap align-items-center justify-content-center mt-5"
+    >
+      <!-- Button -->
+      <h6 class="mb-0 small">Category:</h6>
+      <a href="#" class="btn btn-sm btn-light mb-0">
+        <svg
+          class="me-1"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          height="15"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448h96v64H480c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V112zM368 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V208zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V208zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z"
+          ></path>
+        </svg>
+        Hotel
+      </a>
+      <a href="#" class="btn btn-md btn-light mb-0">
+        <svg
+          class="me-1"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          height="15"
+          viewBox="0 0 576 512"
+        >
+          <path
+            d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z"
+          ></path>
+        </svg>
+        Flight
+      </a>
+      <a href="#" class="btn btn-md btn-light mb-0">
+        <svg
+          class="me-1"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          height="15"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zm48 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256z"
+          ></path>
+        </svg>
+        Tour
+      </a>
+      <a href="#" class="btn btn-md btn-light mb-0">
+        <svg
+          class="me-1"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          height="15"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm288 32c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"
+          ></path>
+        </svg>
+        Cab
+      </a>
+      <a href="#" class="btn btn-md btn-light mb-0">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-geo-alt-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+          ></path>
+        </svg>
+        Directory
+      </a>
+      </div>
+        <!--Button Cat-->
+
+
+
+        <!-- Featured Categories -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h2>
+              Lorem, ipsum.
+            </h2>
+          </div>
+          
+          <div class="row row-cols-6 m-5 ">
+            <div class="card-body text-center">
+              <img src="https://freshcart.codescandy.com/assets/images/category/category-dairy-bread-eggs.jpg"></img>
+            </div>
+
+            <div class="card-body text-center">
+              <img src="https://freshcart.codescandy.com/assets/images/category/category-snack-munchies.jpg"></img>
+            </div>
+
+            <div class="card-body text-center">
+              <img src="https://freshcart.codescandy.com/assets/images/category/category-bakery-biscuits.jpg"></img>
+            </div>
+            <div class="card-body text-center">
+              <img src="https://freshcart.codescandy.com/assets/images/category/category-instant-food.jpg"></img>
+            </div>
+            <div class="card-body text-center">
+              <img src="https://freshcart.codescandy.com/assets/images/category/category-chicken-meat-fish.jpg"></img>
+            </div>
+            <div class="card-body text-center">
+              <img src="https://freshcart.codescandy.com/assets/images/category/category-pet-care.jpg"></img>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Categories -->
+      <section>
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6 mb-3 mb-lg-0">
+                <div class="py-10 px-8 rounded">
+                  <img src="https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png">
+                </div>
+              </div>
+              <div class="col-md-6 mb-3 mb-lg-0">
+                <div class="py-10 px-8 rounded">
+                  <img src="https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      </section>
+
+
+
+
+      </div>
+     
+     
+    
+
+      
+
+      
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  </body>
+</html>
